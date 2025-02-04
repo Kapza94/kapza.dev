@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGhost } from "@fortawesome/free-solid-svg-icons";
-import { Switch } from "@/components/ui/switch";
+// import { Switch } from "@/components/ui/switch";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -11,7 +13,7 @@ const Nav = () => {
             <div>
               <FontAwesomeIcon
                 icon={faGhost}
-                style={{ color: "#C0FF72", fontSize: "2rem", paddingRight: "2rem" }} // Change color and size
+                style={{ color: "#C0FF72", fontSize: "2rem", paddingRight: "1rem" }} // Change color and size
               />
             </div>
             <p>
@@ -20,37 +22,42 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="links rounded-md flex-between-centered border-2 border-solid p-2 ">
+        <div className="links flex-between-centered border-2 border-solid p-3">
           <div className="mr-4 ml-4">
-            <a href="" className="text-[#faf9f6]">
+            <a href="" className="link-item">
               Home
             </a>
           </div>
           <div className="mr-4 ml-4">
-            <a href="" className="text-[#faf9f6]">
+            <a href="" className="link-item">
               Work Experience
             </a>
+            {/* text-[#faf9f6] */}
           </div>
           <div className="mr-4 ml-4">
-            <a href="" className="text-[#faf9f6]">
+            <a href="" className="link-item">
               Skills
             </a>
           </div>
           <div className="mr-4 ml-4">
-            <a href="" className="text-[#faf9f6]">
+            <a href="" className="link-item">
               Projects
             </a>
           </div>
           <div className="mr-4 ml-4">
-            <a href="" className="text-[#faf9f6]">
+            <a href="" className="link-item">
               CV
             </a>
           </div>
         </div>
-
         <div className="contact">
-          <button className="bg-white">
-            <a href="" className="text-[#050100]">
+          {/* <Button asChild>
+            <Link href="/login" className="contact-btn hover:text-white hover:bg-zinc-900 p-3 ">
+              Contact
+            </Link>
+          </Button> */}
+          <button className="pl-4">
+            <a href="" className="contact-btn hover:text-white hover:bg-zinc-900 p-3">
               Contact
             </a>
           </button>
