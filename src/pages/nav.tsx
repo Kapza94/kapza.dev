@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGhost } from "@fortawesome/free-solid-svg-icons";
 // import { Switch } from "@/components/ui/switch";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -51,13 +49,11 @@ const Nav = () => {
           </div>
         </div>
         <div className="contact">
-          {/* <Button asChild>
-            <Link href="/login" className="contact-btn hover:text-white hover:bg-zinc-900 p-3 ">
-              Contact
-            </Link>
+          {/* <Button asChild variant="destructive">
+            <Link href="/login">Contact</Link>
           </Button> */}
           <button className="pl-4">
-            <a href="" className="contact-btn hover:text-white hover:bg-zinc-900 p-3">
+            <a href="" className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3">
               Contact
             </a>
           </button>
