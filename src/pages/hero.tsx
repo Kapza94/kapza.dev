@@ -16,7 +16,7 @@ const Hero = () => {
           // hoverFillColor="#222"
         />
       </div>
-      <div className="relative z-10 hero-top flex justify-around items-center w-1/5 z-100">
+      <div className="relative z-10 hero-top flex justify-around items-center w-full md:w-1/5 ">
         <Image src={"/luka.jpg"} width={80} height={80} className="" alt="Picture of Luka" />
         <div>
           <h2 className="border-2 border-solid p-2 rounded-lg text-white">Hello, I&apos;m Luka!</h2>
@@ -24,17 +24,17 @@ const Hero = () => {
       </div>
       <div className="relative z-10 hero-mid m-10">
         <div className="hero-mid-top flex justify-center items-center">
-          <h2 className="text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl">
             <span className="custom-orange-font">MANAGING </span>TEAMS
           </h2>
         </div>
         <div className="hero-mid-mid flex justify-center items-center">
-          <h2 className="text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl">
             TO <span className="custom-lime-font">BUILDING</span>
           </h2>
         </div>
         <div className="hero-mid-bottom flex justify-center items-center">
-          <h2 className="text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-8xl">
             <span className="custom-purple-font">TECH </span>SOLUTIONS
           </h2>
         </div>
