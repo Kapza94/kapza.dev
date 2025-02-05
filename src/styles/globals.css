@@ -120,7 +120,7 @@ a {
 }
 
 .hero-top {
-  margin: 4rem auto;
+  margin: 1rem auto;
 }
 
 .squares-canvas {
@@ -142,8 +142,7 @@ a {
   margin-top: 2rem;
 }
 
-border-zinc-900 {
-  --tw-border-opacity: 1;
-  border-color: rgb(54, 100, 69 / var(--tw-border-opacity, 1)) !important;
+.text-block-intro {
+  border: 0.5px solid sandybrown;
+  border-radius: 25px;
 }
-

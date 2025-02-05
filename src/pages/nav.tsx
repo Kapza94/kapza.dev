@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="nav-bar m-4">
+    <div className="nav-bar m-4 sticky top-0 z-50 custom-black">
       <nav className="nav flex-between-centered">
         {/* Logo Section */}
         <div>
@@ -38,7 +38,7 @@ const Nav = () => {
         <div className="hidden md:flex items-center">
           <div className="links flex-between-centered border-2 border-solid p-3">
             <div className="mr-4 ml-4">
-              <a href="" className="link-item">
+              <a href="" className="link-item hover:text-lime-300">
                 Home
               </a>
             </div>
@@ -68,10 +68,7 @@ const Nav = () => {
         {/* Contact Button (Desktop) */}
         <div className="hidden md:block contact">
           <button className="pl-4">
-            <a
-              href=""
-              className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3"
-            >
+            <a href="" className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3">
               Contact
             </a>
           </button>
@@ -97,10 +94,7 @@ const Nav = () => {
                 CV
               </a>
               <button>
-                <a
-                  href=""
-                  className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3"
-                >
+                <a href="" className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3">
                   Contact
                 </a>
               </button>
