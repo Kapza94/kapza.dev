@@ -142,3 +142,8 @@ a {
   margin-top: 2rem;
 }
 
+border-zinc-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(54, 100, 69 / var(--tw-border-opacity, 1)) !important;
+}
+

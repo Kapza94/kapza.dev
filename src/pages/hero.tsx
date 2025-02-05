@@ -23,9 +23,6 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative z-10 hero-mid m-10">
-        {/* <div className="hero-mid-top flex justify-center items-center">
-          <h2 className="text-8xl">FROM</h2>
-        </div> */}
         <div className="hero-mid-top flex justify-center items-center">
           <h2 className="text-8xl">
             <span className="custom-orange-font">MANAGING </span>TEAMS
@@ -44,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div className="connect-btn-container">
-        <StarBorder as="button" className="connect-btn" color="cyan" speed="5s">
+        <StarBorder as="button" className="connect-btn border-[#366445]" color="cyan" speed="5s">
           Lets Connect ?
         </StarBorder>
       </div>
