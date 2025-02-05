@@ -1,4 +1,5 @@
 // import { Button } from "@/components/ui/button";
+import Hero from "./hero";
 import Nav from "./nav";
 import SplashScreen from "./splashscreen";
 import { useState } from "react";
@@ -15,8 +16,9 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <>
       <Nav />
-    </div>
+      <Hero />
+    </>
   );
 }

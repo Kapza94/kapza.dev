@@ -4,7 +4,7 @@ import { faGhost } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   return (
-    <div className="m-4">
+    <div className="nav-bar m-4">
       <nav className="nav flex-between-centered">
         <div>
           <div className="flex-between-centered">
