@@ -1,4 +1,5 @@
 // import { Button } from "@/components/ui/button";
+import Experience from "./experience";
 import Hero from "./hero";
 import Nav from "./nav";
 import SplashScreen from "./splashscreen";
@@ -19,6 +20,7 @@ export default function Home() {
     <>
       <Nav />
       <Hero />
+      <Experience />
     </>
   );
 }
