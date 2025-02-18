@@ -83,6 +83,10 @@ a {
   align-items: center;
 }
 
+img:hover {
+  transform: scale(1.2); /* Increase size by 20% on hover */
+}
+
 .contact-btn {
   background-color: #faf9f6;
   color: #050100;

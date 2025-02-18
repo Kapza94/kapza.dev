@@ -17,17 +17,40 @@ const Hero = () => {
         />
       </div>
       <div className="relative z-10 hero-top flex justify-around items-center w-full md:w-1/5">
-        <Image src={"/luka.jpg"} width={80} height={80} className="mr-4" alt="Picture of Luka" />
+        <Image
+          src={"/luka.jpg"}
+          width={80}
+          height={80}
+          className="mr-4"
+          alt="Picture of Luka"
+          style={{
+            transition: "transform 0.3s ease", // Smooth transition effect
+          }}
+        />
         <div className="">
           <StarBorder
             as="button"
             className="connect-btn"
             color="orange"
             speed="8s"
+
             // onClick={scrollToView}
           >
             Hi I&apos;m Luka!
           </StarBorder>
+          <div className="flex justify-between">
+            <h2>Based in Belgrade, Serbia </h2>
+            <Image
+              src={"/flag.png"}
+              width={24}
+              height={22}
+              className="ml-4"
+              alt="Picture of Serbian Flag"
+              style={{
+                transition: "transform 0.3s ease", // Smooth transition effect
+              }}
+            />
+          </div>
         </div>
       </div>
       <div className="relative z-10 hero-mid m-10">
