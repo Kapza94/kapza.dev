@@ -3,9 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer bg-black">
       <div className="footer-content">
-        <div className="footer-section about"></div>
         <div className="footer-section links">
           <h2>Quick Links</h2>
           <ul>
@@ -32,6 +31,26 @@ const Footer = () => {
               linkedin.com/in/luka
             </a>
           </p>
+        </div>
+        <div className="footer-section socials">
+          <h2>Follow Me</h2>
+          <ul>
+            <li>
+              <a href="https://x.com/luka" target="_blank" rel="noopener noreferrer">
+                X.com
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/luka" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/luka" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="footer-bottom">
