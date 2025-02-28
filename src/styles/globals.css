@@ -152,7 +152,7 @@ img:hover {
 }
 
 .footer {
-  background-color: #333;
+  background-color: #050100;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -163,6 +163,7 @@ img:hover {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  border-radius: 10px;
 }
 
 .footer-section {
@@ -203,4 +204,7 @@ img:hover {
 
 .footer-bottom {
   margin-top: 20px;
+}
+.socials {
+  padding-left: 3rem;
 }
