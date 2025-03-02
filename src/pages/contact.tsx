@@ -1,21 +1,14 @@
 import React from "react";
 import Nav from "./nav";
-import { useRouter } from "next/router";
 
 const Contact = () => {
   //  if route is contact then Nav shoudl be mt-4 mr-4 ml-4
-
-  const router = useRouter();
-  console.log(router.pathname);
-
-  if (router.pathname === "/contact") {
-  }
 
   return (
     <>
       {/* nav bar */}
       <Nav />
-      <section className="ml-10 mr-10 relative z-10 overflow-hidden custom-black py-20 dark:bg-dark lg:py-[120px]">
+      <section className="ml-10 mr-10 relative z-10 overflow-hidden custom-black dark:bg-dark lg:py-[50px] py-[50px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">

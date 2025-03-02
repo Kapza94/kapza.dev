@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGhost, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,33 +37,33 @@ const Nav = () => {
 
         {/* Links (Desktop) */}
         <div className="hidden md:flex items-center">
-          <div className="links flex-between-centered border-2 border-solid p-3">
-            <div className="mr-4 ml-4">
+          <ul className="links flex-between-centered border-2 border-solid p-3">
+            <li className="mr-4 ml-4">
               <a href="" className="link-item hover:text-lime-300">
                 Home
               </a>
-            </div>
-            <div className="mr-4 ml-4">
+            </li>
+            <li className="mr-4 ml-4">
               <a href="" className="link-item hover:text-lime-300">
                 Work Experience
               </a>
-            </div>
-            <div className="mr-4 ml-4">
+            </li>
+            <li className="mr-4 ml-4">
               <a href="" className="link-item hover:text-lime-300">
                 Skills
               </a>
-            </div>
-            <div className="mr-4 ml-4">
+            </li>
+            <li className="mr-4 ml-4">
               <a href="" className="link-item hover:text-lime-300">
                 Projects
               </a>
-            </div>
-            <div className="mr-4 ml-4">
+            </li>
+            <li className="mr-4 ml-4">
               <a href="" className="link-item hover:text-lime-300">
                 CV
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
 
         {/* Contact Button (Desktop) */}
@@ -78,25 +79,28 @@ const Nav = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-16 right-0 bg-zinc-900 w-full z-50">
             <div className="flex flex-col items-center space-y-4 p-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="" className="link-item hover:text-lime-300">
                 Home
-              </a>
-              <a href="" className="link-item hover:text-lime-300">
+              </Link>
+              <Link href="" className="link-item hover:text-lime-300">
                 Work Experience
-              </a>
-              <a href="" className="link-item hover:text-lime-300">
+              </Link>
+              <Link href="" className="link-item hover:text-lime-300">
                 Skills
-              </a>
-              <a href="" className="link-item hover:text-lime-300">
+              </Link>
+              <Link href="" className="link-item hover:text-lime-300">
                 Projects
-              </a>
-              <a href="" className="link-item hover:text-lime-300">
+              </Link>
+              <Link href="" className="link-item hover:text-lime-300">
                 CV
-              </a>
+              </Link>
               <button>
-                <a href="" className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3">
+                <Link
+                  href="/contact"
+                  className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3"
+                >
                   Contact
-                </a>
+                </Link>
               </button>
             </div>
           </div>

@@ -204,6 +204,7 @@ img:hover {
 
 .footer-bottom {
   margin-top: 20px;
+  height: 100px;
 }
 .socials {
   padding-left: 3rem;
@@ -216,6 +217,8 @@ img:hover {
 .big-name {
   font-size: 10rem;
   font-weight: 900;
+  bottom: -95px;
+  left: 84px;
 }
 
 .contact-us-form {
@@ -229,14 +232,14 @@ img:hover {
 
 .top-contact-logo {
   font-weight: 900;
-  top: 5px;
+  top: -60px;
   font-size: 10rem;
   right: -4px;
 }
 
 .bottom-contact-logo {
   font-weight: 900;
-  bottom: 5px;
+  bottom: -60px;
   font-size: 10rem;
   left: 854px;
 }

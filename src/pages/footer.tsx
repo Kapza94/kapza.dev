@@ -4,31 +4,33 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-black">
-      <div className="footer-content border border-white ml-4 mr-4 flex flex-col">
+    <footer className=" footer bg-black">
+      <div className="relative overflow-hidden footer-content border border-white ml-4 mr-4 flex flex-col">
         <div className="top-footer flex justify-between w-full">
           {/* <div className="footer-section">
           <h2>While you&apos;re here</h2>
         </div> */}
-          <div className="footer-section links">
-            <h2 className="custom-orange-font text-xl">Explore</h2>
+          <div className="pl-20 footer-section links">
+            <h2 className="custom-orange-font text-xl flex justify-start align-middle text-center ">
+              Explore
+            </h2>
             <ul>
-              <li>
+              <li className="flex justify-start align-middle text-center">
                 <Link href="/home" className="link-hover">
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="flex justify-start align-middle text-center">
                 <Link href="/about" className="link-hover">
                   About
                 </Link>
               </li>
-              <li>
+              <li className="flex justify-start align-middle text-center">
                 <Link href="/projects" className="link-hover">
                   Projects
                 </Link>
               </li>
-              <li>
+              <li className="flex justify-start align-middle text-center">
                 <Link href="/contact" className="link-hover">
                   Contact
                 </Link>
@@ -36,11 +38,18 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-section contact">
-            <h2 className="custom-orange-font text-xl">Contact Me</h2>
-            <p>Email: luka@example.com</p>
-            <p>
+            <h2 className="custom-orange-font text-xl flex justify-start align-middle text-center">
+              Contact Me
+            </h2>
+            <p className="flex justify-start align-middle text-center">Email: luka@example.com</p>
+            <p className="flex justify-start align-middle text-center">
               LinkedIn:{" "}
-              <a href="https://www.linkedin.com/in/luka" target="_blank" rel="noopener noreferrer">
+              <a
+                className="flex justify-start align-middle text-center"
+                href="https://www.linkedin.com/in/luka"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 linkedin.com/in/luka
               </a>
             </p>
@@ -115,9 +124,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="footer-bottom align-middle text-center w-full">
-          <h2 className="big-name">Kapza.dev</h2>
-        </div>
+        <h2 className="big-name absolute">
+          Kapza.<span className="custom-orange-font">dev</span>
+        </h2>
+
+        <div className="h-10 footer-bottom w-full"></div>
       </div>
       <div className="footer-bottom">
         &copy; {new Date().getFullYear()} Luka Kapetanovic. All rights reserved.
