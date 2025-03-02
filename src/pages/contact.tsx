@@ -1,9 +1,21 @@
 import React from "react";
+import Nav from "./nav";
+import { useRouter } from "next/router";
 
 const Contact = () => {
+  //  if route is contact then Nav shoudl be mt-4 mr-4 ml-4
+
+  const router = useRouter();
+  console.log(router.pathname);
+
+  if (router.pathname === "/contact") {
+  }
+
   return (
     <>
-      <section className="m-10 relative z-10 overflow-hidden custom-black py-20 dark:bg-dark lg:py-[120px]">
+      {/* nav bar */}
+      <Nav />
+      <section className="ml-10 mr-10 relative z-10 overflow-hidden custom-black py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -112,7 +124,7 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="top-contact-logo absolute custom-orange-font">O</div>
               <div className="bottom-contact-logo absolute custom-orange-font">O</div>
-              <div className="contact-us-form relative rounded-lg custom-off-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+              <div className="contact-us-form relative rounded-lg bg-zinc-900 p-8 shadow-lg dark:bg-dark-2 sm:p-12">
                 <form>
                   <ContactInputBox type="text" name="name" placeholder="Your Name" />
                   <ContactInputBox type="text" name="email" placeholder="Your Email" />
@@ -126,7 +138,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className=" contact-us-send-btn w-full rounded border border-primary p-3 custom-black-font transition"
+                      className=" contact-us-send-btn w-full rounded border border-primary p-3 bg-zinc-900"
                     >
                       Send Message
                     </button>
@@ -158,7 +170,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }: ContactTextAr
           rows={row}
           placeholder={placeholder}
           name={name}
-          className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base bg-zinc-900 text-white"
           defaultValue={defaultValue}
         />
       </div>
@@ -180,7 +192,7 @@ const ContactInputBox = ({ type, placeholder, name }: ContactInputBoxProps) => {
           type={type}
           placeholder={placeholder}
           name={name}
-          className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full rounded border border-stroke px-[14px] py-3 text-base bg-zinc-900 text-white"
         />
       </div>
     </>
