@@ -219,6 +219,7 @@ img:hover {
   font-weight: 900;
   bottom: -95px;
   left: 84px;
+  opacity: 0.6;
 }
 
 .contact-us-form {
