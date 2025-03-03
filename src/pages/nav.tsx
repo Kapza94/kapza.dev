@@ -39,40 +39,41 @@ const Nav = () => {
         <div className="hidden md:flex items-center">
           <ul className="links flex-between-centered border-2 border-solid p-3">
             <li className="mr-4 ml-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="/" className="link-item hover:text-lime-300">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="mr-4 ml-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="" className="link-item hover:text-lime-300">
                 Work Experience
-              </a>
+              </Link>
             </li>
             <li className="mr-4 ml-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="" className="link-item hover:text-lime-300">
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="mr-4 ml-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="" className="link-item hover:text-lime-300">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="mr-4 ml-4">
-              <a href="" className="link-item hover:text-lime-300">
+              <Link href="" className="link-item hover:text-lime-300">
                 CV
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
         {/* Contact Button (Desktop) */}
         <div className="hidden md:block contact">
-          <button className="pl-4">
-            <a href="" className="contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3">
-              Contact
-            </a>
-          </button>
+          <Link
+            href="/contact"
+            className="pl-4 contact-btn hover:text-lime-300 hover:bg-zinc-900 p-3"
+          >
+            Contact
+          </Link>
         </div>
 
         {/* Mobile Menu */}
