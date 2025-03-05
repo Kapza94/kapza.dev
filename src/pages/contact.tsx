@@ -199,7 +199,7 @@ const Contact = () => {
                           name="name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          className="input-field bg-gray-100 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                          className="input-field bg-zinc-700 shadow appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                           required
                         />
                       </div>
@@ -216,7 +216,7 @@ const Contact = () => {
                           name="email"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          className=" input-field bg-gray-100 shadow appearance-none border rounded w-full py-2  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                          className=" input-field bg-zinc-700 shadow appearance-none rounded w-full py-2  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                           required
                         />
                       </div>
@@ -234,7 +234,7 @@ const Contact = () => {
                         name="message"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
-                        className="input-field-msg bg-gray-100 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="input-field-msg bg-zinc-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         required
                       />
                     </div>
@@ -242,7 +242,7 @@ const Contact = () => {
                       <button
                         id="submit-button"
                         type="submit"
-                        className="dark-mint hover:dark-mint-btn-hvr text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        className=" text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                       >
                         Send Message
                       </button>
