@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "./nav";
 import emailjs from "@emailjs/browser";
 
@@ -37,11 +37,26 @@ const Contact = () => {
         setName("");
         setEmail("");
         setMessage("");
+        setTimeout(() => {
+          setIsSent(false);
+        }, 7000);
       })
       .catch((error) => {
         console.log("Email was not sent", error);
       });
   };
+
+  useEffect(() => {
+    let timeoutId: NodeJS.Timeout;
+    if (isSent) {
+      timeoutId = setTimeout(() => {
+        setIsSent(false);
+      }, 7000);
+    }
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isSent]);
 
   return (
     <>
