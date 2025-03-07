@@ -169,9 +169,9 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="top-contact-logo absolute custom-orange-font">O</div>
-              <div className="bottom-contact-logo absolute custom-orange-font">O</div>
-              <div className="contact-us-form relative rounded-lg bg-zinc-900 p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+              {/* <div className="top-contact-logo absolute custom-orange-font">O</div> */}
+              {/* <div className="bottom-contact-logo absolute custom-orange-font">O</div> */}
+              <div className="border-x-[#ffbd59] border-y-[#ffbd59] border-l-4 border-b-4 contact-us-form relative rounded-lg bg-zinc-900 p-8 shadow-lg dark:bg-dark-2 sm:p-12 mt-16">
                 <div className="wrapper">
                   <div className="thank-you-msg">
                     {isSent && (
