@@ -15,7 +15,7 @@ const Resume = () => {
       <h2 className="text-2xl font-bold mb-4 custom-purple-font">Experience</h2>
 
       <div className="exp-all grid grid-cols-2 grid-rows-2 gap-4">
-        <div className="exp-block mb-6 p-4 border border-gray-800 rounded-lg bg-gray-900 flex flex-col h-full">
+        <div className="exp-block mb-6 p-4 border border-zinc-900 rounded-lg bg-gray-900 flex flex-col h-full">
           <h3 className="text-xl font-bold custom-orange-font">Betsson Group (Rizk brand)</h3>
           <p className="italic">
             Customer Service Team Manager | May 2023 - Present | Belgrade, Serbia
@@ -35,7 +35,7 @@ const Resume = () => {
           </ul>
         </div>
 
-        <div className="exp-block mb-6 p-4 border border-gray-800 rounded-lg bg-gray-900 flex flex-col h-full">
+        <div className="exp-block mb-6 p-4 border border-zinc-900 rounded-lg bg-gray-900 flex flex-col h-full">
           <h3 className="text-xl font-bold custom-orange-font">Examroom.Ai</h3>
           <p className="italic">
             Customer Service Team Leader | May 2022 - May 2023 | Belgrade, Serbia
@@ -51,7 +51,7 @@ const Resume = () => {
           </ul>
         </div>
 
-        <div className="exp-block mb-6 p-4 border border-gray-800 rounded-lg bg-gray-900 flex flex-col h-full">
+        <div className="exp-block mb-6 p-4 border border-zinc-900 rounded-lg bg-gray-900 flex flex-col h-full">
           <h3 className="text-xl font-bold custom-orange-font">Geodis</h3>
           <p className="italic">
             Supply Chain Team Leader | November 2019 - April 2022 | Belgrade, Serbia
@@ -68,7 +68,7 @@ const Resume = () => {
           </ul>
         </div>
 
-        <div className="exp-block mb-6 p-4 border border-gray-800 rounded-lg bg-gray-900 flex flex-col h-full">
+        <div className="exp-block mb-6 p-4 border border-zinc-900 rounded-lg bg-gray-900 flex flex-col h-full">
           <h3 className="text-xl font-bold custom-orange-font">NCR</h3>
           <p className="italic">
             End 2 End Service Account Executive. | November 2019 - April 2022 | Belgrade, Serbia
