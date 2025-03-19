@@ -244,3 +244,28 @@ img:hover {
   font-size: 10rem;
   left: 854px;
 }
+
+.exp-all {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #4a5568; /* Adjust color as needed */
+  z-index: -1;
+}
+
+.exp-block {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.exp-block.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

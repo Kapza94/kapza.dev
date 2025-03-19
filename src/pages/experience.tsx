@@ -1,4 +1,21 @@
+import { useEffect } from "react";
+
 const Resume = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll(".exp-block");
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          el.classList.add("visible");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="max-w-7xl mx-auto p-6 bg-custom-black text-gray-300 rounded-lg shadow-lg">
       <div className="experience-about">
@@ -14,7 +31,8 @@ const Resume = () => {
       </div>
       <h2 className="text-2xl font-bold mb-4 custom-purple-font">Experience</h2>
 
-      <div className="exp-all grid grid-cols-2 grid-rows-2 gap-4">
+      <div className="exp-all grid grid-cols-2 gap-4 relative">
+        <div className="timeline-line"></div>
         <div className="exp-block mb-6 p-4 border border-zinc-900 rounded-lg flex flex-col h-full">
           <h3 className="text-xl font-bold custom-orange-font">Betsson Group (Rizk brand)</h3>
           <p className="italic">
