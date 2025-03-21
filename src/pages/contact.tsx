@@ -188,7 +188,7 @@ const Contact = () => {
                   </div>
                   <form onSubmit={handleSubmit} className="w-full max-w-lg">
                     <div className="mb-4">
-                      <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+                      <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
                         Name
                       </label>
                       <div className="relative">
@@ -199,13 +199,13 @@ const Contact = () => {
                           name="name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          className="input-field bg-zinc-700 shadow appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                          className="input-field bg-zinc-700 shadow appearance-none rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                           required
                         />
                       </div>
                     </div>
                     <div className="mb-4">
-                      <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+                      <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
                         Email
                       </label>
                       <div className="relative">
@@ -216,16 +216,13 @@ const Contact = () => {
                           name="email"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          className=" input-field bg-zinc-700 shadow appearance-none rounded w-full py-2  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                          className=" input-field bg-zinc-700 shadow appearance-none rounded w-full py-2  text-white leading-tight focus:outline-none focus:shadow-outline"
                           required
                         />
                       </div>
                     </div>
                     <div className="mb-4">
-                      <label
-                        className="block text-gray-700 text-sm font-bold mb-2"
-                        htmlFor="message"
-                      >
+                      <label className="block text-white text-sm font-bold mb-2" htmlFor="message">
                         Message
                       </label>
                       <textarea
@@ -234,7 +231,7 @@ const Contact = () => {
                         name="message"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
-                        className="input-field-msg bg-zinc-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="input-field-msg bg-zinc-700 shadow appearance-none  rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         required
                       />
                     </div>
@@ -242,7 +239,7 @@ const Contact = () => {
                       <button
                         id="submit-button"
                         type="submit"
-                        className=" text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        className="  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline custom-orange"
                       >
                         Send Message
                       </button>

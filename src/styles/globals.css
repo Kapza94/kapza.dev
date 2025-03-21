@@ -269,3 +269,7 @@ img:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+#submit-button {
+  padding: 1rem;
+}
