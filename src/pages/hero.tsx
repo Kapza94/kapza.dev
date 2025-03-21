@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Squares from "./squares";
 import StarBorder from "./starborder";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -74,20 +75,22 @@ const Hero = () => {
       <div className="subheading relative z-10 flex items-center justify-center md:m-4">
         <h2 className="text-base md:text-xl pl-8 pr-10">
           Blending leadership, problem-solving, and a passion for building efficient tech solutions
-          through web development and software testing.
+          through web development.
         </h2>
       </div>
 
       <div className="connect-btn-container">
-        <StarBorder
-          as="button"
-          className="connect-btn drop-shadow-xl"
-          color="lime"
-          speed="8s"
-          // onClick={contactForm}
-        >
-          Lets Connect ?
-        </StarBorder>
+        <Link href="/contact">
+          <StarBorder
+            as="button"
+            className="connect-btn drop-shadow-xl"
+            color="lime"
+            speed="8s"
+            // onClick={contactForm}
+          >
+            Lets Connect ?
+          </StarBorder>
+        </Link>
       </div>
     </div>
   );
