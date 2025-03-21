@@ -271,5 +271,10 @@ img:hover {
 }
 
 #submit-button {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#submit-button:hover {
+  transform: scale(1.05);
+  background-color: orange !important;
 }

@@ -239,7 +239,7 @@ const Contact = () => {
                       <button
                         id="submit-button"
                         type="submit"
-                        className="  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline custom-orange"
+                        className="  text-white font-bold py-2 px-4  focus:outline-none focus:shadow-outline custom-orange w-full"
                       >
                         Send Message
                       </button>
