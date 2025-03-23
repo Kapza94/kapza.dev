@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         <div className="hero-mid-mid flex justify-center items-center">
           <h2 className="text-4xl md:text-6xl lg:text-8xl">
-            TO <span className="custom-lime-font">BUILDING </span>
+            & <span className="custom-lime-font">BUILDING </span>
           </h2>
         </div>
         <div className="hero-mid-bottom flex justify-center items-center">
