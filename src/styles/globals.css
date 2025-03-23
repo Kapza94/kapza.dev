@@ -280,6 +280,7 @@ img:hover {
 }
 
 .skills-item {
+  border: 1px solid slategray;
   border-radius: 20px;
   width: 20%;
 }
