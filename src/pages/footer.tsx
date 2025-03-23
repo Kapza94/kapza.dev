@@ -72,12 +72,7 @@ const Footer = () => {
                     borderRadius: "20px",
                   }}
                 />
-                <a
-                  className="link-hover"
-                  href="https://x.com/luka"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a className="link-hover" href="https://x.com/kapza_" rel="noopener noreferrer">
                   X.com
                 </a>
               </li>
@@ -94,7 +89,7 @@ const Footer = () => {
                 />
                 <a
                   className="link-hover"
-                  href="https://www.linkedin.com/in/luka"
+                  href="https://www.linkedin.com/in/luka-kapetanovic-a52a4066/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -114,7 +109,7 @@ const Footer = () => {
                 />
                 <a
                   className="link-hover"
-                  href="https://github.com/luka"
+                  href="https://github.com/Kapza94"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
