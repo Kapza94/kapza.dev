@@ -278,3 +278,8 @@ img:hover {
   transform: scale(1.05);
   background-color: orange !important;
 }
+
+.skills-item {
+  border-radius: 20px;
+  width: 20%;
+}

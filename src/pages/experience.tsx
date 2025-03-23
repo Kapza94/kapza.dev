@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect } from "react";
 
 const Resume = () => {
@@ -30,7 +31,6 @@ const Resume = () => {
         </p>
       </div>
       <h2 className="text-2xl font-bold mb-4 custom-purple-font">Experience</h2>
-
       <div className="exp-all grid grid-cols-2 gap-4 relative">
         <div className="timeline-line"></div>
         <div className="exp-block mb-6 p-4  rounded-lg flex flex-col h-full">
@@ -145,12 +145,67 @@ const Resume = () => {
           </ul> */}
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mb-4 custom-purple-font">Skills</h2>
-      <p>
-        <strong>Web Development:</strong> HTML, CSS, JavaScript, React, Node.js, MySQL, SQLite,
-        GraphQL, WordPress
+      <p className="flex justify-center align-middle pb-3">
+        <strong>Web Development:</strong>{" "}
       </p>
+      <div className="web-dev-skills flex justify-around align-middle gap-7">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">HTML</h2>
+          <Image src={"/html.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">CSS</h2>
+          <Image src={"/css.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">Javascript</h2>
+          <Image
+            src={"/javascript.svg"}
+            width={30}
+            height={30}
+            className="mr-4"
+            alt="Picture of Luka"
+          />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">React</h2>
+          <Image src={"/react.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">Node</h2>
+          <Image src={"/node.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">MYSQL</h2>
+          <Image src={"/mysql.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">Mongo DB</h2>
+          <Image
+            src={"/mongodb.svg"}
+            width={18}
+            height={30}
+            className="mr-4"
+            alt="Picture of Luka"
+          />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">Graph QL</h2>
+          <Image
+            src={"/graphql.svg"}
+            width={30}
+            height={30}
+            className="mr-4"
+            alt="Picture of Luka"
+          />
+        </div>
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+          <h2 className="pb-5">WordPress</h2>
+          <Image src={"/wp.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+        </div>
+      </div>
+
       <p>
         <strong>KPI & Team Management:</strong> Quality & Customer Focus, Performance &
         Productivity, Growth & Engagement, Operational Efficiency
