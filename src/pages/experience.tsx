@@ -150,15 +150,15 @@ const Resume = () => {
         <strong>Web Development:</strong>{" "}
       </p>
       <div className="web-dev-skills flex justify-around align-middle gap-7">
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">HTML</h2>
           <Image src={"/html.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">CSS</h2>
           <Image src={"/css.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">Javascript</h2>
           <Image
             src={"/javascript.svg"}
@@ -168,19 +168,19 @@ const Resume = () => {
             alt="Picture of Luka"
           />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-100  ease-in-out ">
           <h2 className="pb-5">React</h2>
           <Image src={"/react.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">Node</h2>
           <Image src={"/node.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">MYSQL</h2>
           <Image src={"/mysql.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">Mongo DB</h2>
           <Image
             src={"/mongodb.svg"}
@@ -190,7 +190,7 @@ const Resume = () => {
             alt="Picture of Luka"
           />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out  ">
           <h2 className="pb-5">Graph QL</h2>
           <Image
             src={"/graphql.svg"}
@@ -200,13 +200,13 @@ const Resume = () => {
             alt="Picture of Luka"
           />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center">
+        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-green-500 hover:scale-110 transition-transform duration-200  ease-in-out ">
           <h2 className="pb-5">WordPress</h2>
           <Image src={"/wp.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
         </div>
       </div>
 
-      <p>
+      <p className="mt-5">
         <strong>KPI & Team Management:</strong> Quality & Customer Focus, Performance &
         Productivity, Growth & Engagement, Operational Efficiency
       </p>
