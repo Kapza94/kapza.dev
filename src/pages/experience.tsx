@@ -151,15 +151,12 @@ const Resume = () => {
       </p>
       <div className="web-dev-skills flex justify-around align-middle gap-7">
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">HTML</h2>
-          <Image src={"/html.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/html.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">CSS</h2>
-          <Image src={"/css.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/css.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">Javascript</h2>
           <Image
             src={"/javascript.svg"}
             width={30}
@@ -169,19 +166,15 @@ const Resume = () => {
           />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-100  ease-in-out ">
-          <h2 className="pb-5">React</h2>
-          <Image src={"/react.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/react.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">Node</h2>
-          <Image src={"/node.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/node.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">MYSQL</h2>
-          <Image src={"/mysql.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/mysql.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">Mongo DB</h2>
           <Image
             src={"/mongodb.svg"}
             width={18}
@@ -191,7 +184,6 @@ const Resume = () => {
           />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out  ">
-          <h2 className="pb-5">Graph QL</h2>
           <Image
             src={"/graphql.svg"}
             width={30}
@@ -201,8 +193,7 @@ const Resume = () => {
           />
         </div>
         <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <h2 className="pb-5">WordPress</h2>
-          <Image src={"/wp.svg"} width={30} height={30} className="mr-4" alt="Picture of Luka" />
+          <Image src={"/wp.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
         </div>
       </div>
 
