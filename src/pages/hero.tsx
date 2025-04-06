@@ -6,18 +6,17 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="hero relative h-screen w-full overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        {" "}
+    <div className="hero relative h-[50vh] w-full overflow-hidden">
+      {/* Adjusted height for Squares */}
+      <div className="absolute inset-0 z-0 h-[50vh]">
         <Squares
           speed={0.3}
           squareSize={60}
           direction="diagonal"
           borderColor="rgba(255, 255, 255, 0.1)"
-          // hoverFillColor="#222"
         />
       </div>
-      <div className="relative z-10 hero-top flex justify-around items-center w-full md:w-1/5">
+      <div className="relative z-10 hero-top flex justify-around items-center w-full md:w-1/5 mb-6">
         <Image
           src={"/luka.jpg"}
           width={80}
@@ -25,21 +24,14 @@ const Hero = () => {
           className="mr-4"
           alt="Picture of Luka"
           style={{
-            transition: "transform 0.3s ease", // Smooth transition effect
+            transition: "transform 0.3s ease",
           }}
         />
-        <div className="">
-          <StarBorder
-            as="button"
-            className="connect-btn"
-            color="orange"
-            speed="8s"
-
-            // onClick={scrollToView}
-          >
+        <div>
+          <StarBorder as="button" className="connect-btn" color="orange" speed="8s">
             Hi I&apos;m Luka!
           </StarBorder>
-          <div className="flex justify-between">
+          <div className="flex justify-between mt-2">
             <h2>Based in Belgrade, Serbia </h2>
             <Image
               src={"/flag.png"}
@@ -48,46 +40,38 @@ const Hero = () => {
               className="ml-4"
               alt="Picture of Serbian Flag"
               style={{
-                transition: "transform 0.3s ease", // Smooth transition effect
+                transition: "transform 0.3s ease",
               }}
             />
           </div>
         </div>
       </div>
-      <div className="relative z-10 hero-mid m-10">
+      <div className="relative z-10 hero-mid m-6">
         <div className="hero-mid-top flex justify-center items-center">
-          <h2 className="text-4xl md:text-6xl lg:text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl">
             <span className="custom-orange-font">MANAGING </span>TEAMS
           </h2>
         </div>
         <div className="hero-mid-mid flex justify-center items-center">
-          <h2 className="text-4xl md:text-6xl lg:text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl">
             & <span className="custom-lime-font">BUILDING </span>
           </h2>
         </div>
         <div className="hero-mid-bottom flex justify-center items-center">
-          <h2 className="text-4xl md:text-6xl lg:text-8xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl">
             <span className="custom-purple-font">TECH </span>SOLUTIONS
           </h2>
         </div>
       </div>
-
-      <div className="subheading relative z-10 flex items-center justify-center md:m-4">
-        <h2 className="text-base md:text-xl pl-8 pr-10">
+      <div className="subheading relative z-10 flex items-center justify-center md:m-2">
+        <h2 className="text-sm md:text-lg pl-4 pr-6">
           Blending leadership, problem-solving, and a passion for building efficient tech solutions
           through web development.
         </h2>
       </div>
-
-      <div className="connect-btn-container">
+      <div className="connect-btn-container mt-4">
         <Link href="/contact">
-          <StarBorder
-            as="button"
-            className="connect-btn drop-shadow-xl"
-            color="lime"
-            speed="8s"
-            // onClick={contactForm}
-          >
+          <StarBorder as="button" className="connect-btn drop-shadow-xl" color="lime" speed="8s">
             Lets Connect ?
           </StarBorder>
         </Link>
