@@ -149,51 +149,33 @@ const Resume = () => {
       <p className="flex justify-center align-middle pb-3">
         <strong>Web Development:</strong>{" "}
       </p>
-      <div className="web-dev-skills flex justify-around align-middle gap-7">
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image src={"/html.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+      <div className="web-dev-skills flex justify-around items-center gap-7">
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/html.svg"} width={50} height={50} alt="HTML Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image src={"/css.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/css.svg"} width={50} height={50} alt="CSS Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image
-            src={"/javascript.svg"}
-            width={30}
-            height={30}
-            className="mr-4"
-            alt="Picture of Luka"
-          />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/javascript.svg"} width={50} height={50} alt="JavaScript Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-100  ease-in-out ">
-          <Image src={"/react.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/react.svg"} width={50} height={50} alt="React Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image src={"/node.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/node.svg"} width={50} height={50} alt="Node Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image src={"/mysql.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/mysql.svg"} width={50} height={50} alt="MySQL Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image
-            src={"/mongodb.svg"}
-            width={18}
-            height={30}
-            className="mr-4"
-            alt="Picture of Luka"
-          />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/mongodb.svg"} width={30} height={30} alt="MongoDB Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out  ">
-          <Image
-            src={"/graphql.svg"}
-            width={30}
-            height={30}
-            className="mr-4"
-            alt="Picture of Luka"
-          />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/graphql.svg"} width={50} height={50} alt="GraphQL Icon" />
         </div>
-        <div className="skills-item border p-5 flex flex-col justify-center align-middle items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200  ease-in-out ">
-          <Image src={"/wp.svg"} width={50} height={50} className="mr-4" alt="Picture of Luka" />
+        <div className="skills-item border w-24 h-24 p-5 flex flex-col justify-center items-center hover:border-[#c0ff72] hover:scale-110 transition-transform duration-200 ease-in-out">
+          <Image src={"/wp.svg"} width={50} height={50} alt="WordPress Icon" />
         </div>
       </div>
 
