@@ -46,19 +46,6 @@ const Resume = () => {
           <p className="italic">
             <span className="font-bold">Location: </span>Belgrade, Serbia
           </p>
-          {/* <ul className="list-disc list-inside mt-2">
-            <li>Launched Rizk.rs, a flagship brand of Betsson Group, in Serbia.</li>
-            <li>Developed KPI tracking and metrics systems for all agents.</li>
-            <li>Conducted one-on-one meetings to help improve professional growth.</li>
-            <li>Strategized to enhance visibility and player retention.</li>
-            <li>Analyzed customer feedback and CSAT trends to drive service improvements.</li>
-            <li>
-              Implemented new workflows to streamline support efficiency and reduce response times.
-            </li>
-            <li>
-              Coordinated with international teams to align support standards and best practices.
-            </li>
-          </ul> */}
         </div>
 
         <div className="exp-block mb-6 p-4  rounded-lg flex flex-col h-full">
@@ -74,15 +61,6 @@ const Resume = () => {
           <p className="italic">
             <span className="font-bold">Location: </span>Belgrade, Serbia
           </p>
-          {/* <ul className="list-disc list-inside mt-2">
-            <li>Led the onboarding team, managing up to 15 agents.</li>
-            <li>Developed shift schedules and handled daily operations.</li>
-            <li>Launched the Onboarding Agent (OBA) position in Serbia.</li>
-            <li>Co-created and implemented comprehensive KPI tracking metrics.</li>
-            <li>Ran daily huddles and led shifts in the absence of the Shift Manager.</li>
-            <li>Collaborated with the India team to streamline global operations.</li>
-            <li>Optimized resource management and trained a new team leader.</li>
-          </ul> */}
         </div>
 
         <div className="exp-block mb-6 p-4  rounded-lg flex flex-col h-full">
@@ -98,16 +76,6 @@ const Resume = () => {
           <p className="italic">
             <span className="font-bold">Location: </span>Belgrade, Serbia
           </p>
-          {/* <ul className="list-disc list-inside mt-2">
-            <li>Presented KPIs to British Petroleum and addressed urgent shipment issues.</li>
-            <li>Ensured daily task completion and operational efficiency.</li>
-            <li>Worked on cost-saving initiatives with the Inbound Logistics Supply Manager.</li>
-            <li>Monitored vendor performance and developed improvement plans.</li>
-            <li>
-              Led the team through the covid-19 pandemic by helping implement new ways to improve
-              our teams productivity and ddelivery times.
-            </li>
-          </ul> */}
         </div>
 
         <div className="exp-block mb-6 p-4  rounded-lg flex flex-col h-full">
@@ -124,25 +92,6 @@ const Resume = () => {
           <p className="italic">
             <span className="font-bold">Location: </span>Belgrade, Serbia
           </p>
-          {/* <ul className="list-disc list-inside mt-2">
-            <li>
-              Provided end-to-end support for Barclays, Clydesdale, and Yorkshire Bank clients.
-            </li>
-            <li>
-              Managed ATM outages, collaborating with internal teams to restore services promptly.
-            </li>
-            <li>
-              Coordinated meetings between third-party companies and NCR for client discussions.
-            </li>
-            <li>
-              Produced daily spreadsheets and reports for account teams, aiding in analysis and
-              statistics.
-            </li>
-            <li>
-              Prioritized and escalated client issues, ensuring efficient communication and
-              resolution.
-            </li>
-          </ul> */}
         </div>
       </div>
       <h2 className="text-2xl font-bold mb-4 custom-purple-font">Skills</h2>
